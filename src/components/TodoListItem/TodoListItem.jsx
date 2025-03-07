@@ -1,4 +1,4 @@
-import { RiDeleteBinLine, RiEdit2Line } from 'react-icons/ri';
+import { RiDeleteBinLine } from 'react-icons/ri';
 import Text from '../Text/Text';
 import style from './TodoListItem.module.css';
 
