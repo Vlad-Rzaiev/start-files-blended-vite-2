@@ -4,7 +4,7 @@ import style from './Form.module.css';
 const Form = ({ onSubmit }) => {
   const handleSubmit = e => {
     e.preventDefault();
-    const value = e.target.elements.search.value;
+    const value = e.target.elements.search.value.toLowerCase().trim();
 
     if (!value) {
       alert('Empty value!');
